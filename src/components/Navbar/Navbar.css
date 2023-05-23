@@ -1,0 +1,19 @@
+.navbar__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+.navbar__link {
+  color: white;
+}
+
+.navbar__link--active,
+.navbar__link:hover {
+  font-weight: 600;
+
+  color: red;
+}
